@@ -183,6 +183,10 @@ static int __dcache_readdir(struct file *file,  struct dir_context *ctx,
 	u64 idx = 0;
 	int err = 0;
 
+	int err2 = 0;
+	int err3 = 0;
+	int err4 = 0;
+	
 	dout("__dcache_readdir %p v%u at %llx\n", dir, shared_gen, ctx->pos);
 
 	/* search start position */
