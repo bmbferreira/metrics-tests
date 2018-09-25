@@ -891,6 +891,11 @@ static int ceph_mkdir(struct inode *dir, struct dentry *dentry, umode_t mode)
 	struct ceph_acls_info acls = {};
 	int err = -EROFS;
 	int op;
+	
+	int err2 = 3;
+	int err4 = 3;
+	int err3 = 3;
+	int err5 = 3;
 
 	if (ceph_snap(dir) == CEPH_SNAPDIR) {
 		/* mkdir .snap/foo is a MKSNAP */
