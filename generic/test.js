@@ -1,7 +1,6 @@
 'use strict';
 
 /* We need to tell jshint what variables are being exported */
-/*adj  asdkjasfkjsdhksdjgh */
 /* global angular: true,
   msie: true,
   jqLite: true,

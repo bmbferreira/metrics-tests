@@ -8,7 +8,7 @@ class Matrix
       @size = a.row_count
       @d = Array.new(@size, 0)
       @e = Array.new(@size, 0)
-# testtest
+# testtest2
       if (@symmetric = a.symmetric?)
         @v = a.to_a
         tridiagonalize
