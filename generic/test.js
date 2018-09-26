@@ -123,7 +123,6 @@ var hasOwnProperty = Object.prototype.hasOwnProperty;
 
 var lowercase = function(string) {return isString(string) ? string.toLowerCase() : string;};
 var uppercase = function(string) {return isString(string) ? string.toUpperCase() : string;};
-var pppp = 3123;
 
 var manualLowercase = function(s) {
   /* jshint bitwise: false */

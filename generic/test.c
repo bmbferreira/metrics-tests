@@ -31,7 +31,6 @@
  */
 
 const struct dentry_operations ceph_dentry_ops;
-consta abc = 2;
 static int ceph_d_init(struct dentry *dentry)
 {
 	struct ceph_dentry_info *di;
