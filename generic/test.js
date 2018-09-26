@@ -99,9 +99,6 @@
 
 
 /**
- * @ngdoc module
- * @name ng
- * @module ng
  * @description
  * <div doc-module-components="ng"></div>
  */

@@ -4,8 +4,6 @@ class Matrix
 
     def initialize(a)
       # @d, @e: Arrays for internal storage of eigenvalues.
-      # @v: Array for internal storage of eigenvectors.
-      # @h: Array for internal storage of nonsymmetric Hessenberg form.
       raise TypeError, "Expected Matrix but got #{a.class}" unless a.is_a?(Matrix)
       @size = a.row_count
       @d = Array.new(@size, 0)
