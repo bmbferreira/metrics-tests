@@ -100,7 +100,6 @@
 
 /**
  * @description
- * <div doc-module-components="ng"></div>
  */
 
 var REGEX_STRING_REGEXP = /^\/(.+)\/([a-z]*)$/;

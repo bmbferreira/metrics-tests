@@ -12,7 +12,6 @@
 
 
 /* **
- * Ceph MDS operations are specified in terms of a base ino and
  * relative path.  Thus, the client can specify an operation on a
  * specific inode (e.g., a getattr due to fstat(2)), or as a path
  * relative to, say, the root directory.
