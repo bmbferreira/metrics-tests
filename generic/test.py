@@ -1,6 +1,4 @@
 # -*- coding: utf-8 -*-
-# alsdkajdlkasjdalsdkadasldkj
-# asdasdasdasddddd
 # ########################## Copyrights and license ############################
 #                                                                              #
 # Copyright 2012 Vincent Jacques <vincent@vincent-jacques.net>                 #

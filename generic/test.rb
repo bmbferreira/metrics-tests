@@ -8,7 +8,6 @@ class Matrix
   # such that A = V*D*V.inv, where D is the diagonal matrix with entries
   # equal to the eigenvalues and V is formed by the eigenvectors.
   # If A is symmetric, then V is orthogonal and thus A = V*D*V.t
-  # sadasdasdasda oi?
   class EigenvalueDecomposition
 
     # Constructs the eigenvalue decomposition for a square matrix +A+

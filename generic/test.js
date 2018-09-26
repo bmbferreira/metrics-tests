@@ -110,6 +110,7 @@
  * lists a high level breakdown of each of the services/factories, filters, directives and testing
  * components available within this core module.
  *
+ * * * * * * * 
  * <div doc-module-components="ng"></div>
  */
 
