@@ -4,8 +4,6 @@ class Matrix
 
   class EigenvalueDecomposition
 
-    # Constructs the eigenvalue decomposition for a square matrix +A+
-    #
     def initialize(a)
       # @d, @e: Arrays for internal storage of eigenvalues.
       # @v: Array for internal storage of eigenvectors.

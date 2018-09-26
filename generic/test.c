@@ -14,7 +14,6 @@
  * Directory operations: readdir, lookup, create, link, unlink,
  * rename, etc
  * 
- * dasdasd.
  */
 
 /*
