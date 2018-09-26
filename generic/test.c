@@ -21,6 +21,7 @@
  * specific inode (e.g., a getattr due to fstat(2)), or as a path
  * relative to, say, the root directory.
  *
+ * sadlkasdlaskdjaslkdjaldkjasdlkajsd
  * Normally, we limit ourselves to strict inode ops (no path component)
  * or dentry operations (a single path component relative to an ino).  The
  * exception to this is open_root_dentry(), which will open the mount
