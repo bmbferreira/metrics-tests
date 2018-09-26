@@ -71,8 +71,6 @@ class Branch(github.GithubObject.NonCompletableGithubObject):
         return self._contexts.value
 
     def _initAttributes(self):
-        a = 3
-	b = 4
 	self._commit = github.GithubObject.NotSet
         self._name = github.GithubObject.NotSet
 
