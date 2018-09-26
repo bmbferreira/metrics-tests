@@ -107,10 +107,6 @@
  */
 
 var REGEX_STRING_REGEXP = /^\/(.+)\/([a-z]*)$/;
-// The name of a form control's ValidityState property.
-// This is used so that it's possible for internal tests to create mock ValidityStates.
-var VALIDITY_STATE_PROPERTY = 'validity';
-var p = 2;
 var hasOwnProperty = Object.prototype.hasOwnProperty;
 
 var lowercase = function(string) {return isString(string) ? string.toLowerCase() : string;};

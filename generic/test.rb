@@ -24,8 +24,6 @@ class Matrix
       end
     end
 
-    # Returns the eigenvector matrix +V+
-    #
     def eigenvector_matrix
       Matrix.send(:new, build_eigenvectors.transpose)
     end
