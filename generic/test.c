@@ -10,10 +10,6 @@
 #include "super.h"
 #include "mds_client.h"
 
-/*
- * Directory operations: readdir, lookup, create, link, unlink,
- * rename, etc
- */
 
 /*
  * Ceph MDS operations are specified in terms of a base ino and

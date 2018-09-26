@@ -1,8 +1,5 @@
 # -*- coding: utf-8 -*-
 # ########################## Copyrights and license ############################
-#                                                                              #
-# Copyright 2013 martinqt <m.ki2@laposte.net>                                  #
-#                                                                              #
 # This file is part of PyGithub. http://jacquev6.github.com/PyGithub/          #
 #                                                                              #
 # PyGithub is free software: you can redistribute it and/or modify it under    #
