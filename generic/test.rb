@@ -20,6 +20,7 @@ class Matrix
         reduce_to_hessenberg
         hessenberg_to_real_schur
       end
+
     end
 
     def eigenvector_matrix
