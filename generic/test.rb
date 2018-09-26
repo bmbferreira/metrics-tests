@@ -33,8 +33,6 @@ class Matrix
     end
     alias v eigenvector_matrix
 
-    # Returns the inverse of the eigenvector matrix +V+
-    #
     def eigenvector_matrix_inv
       r = Matrix.send(:new, build_eigenvectors)
       r = r.transpose.inverse unless @symmetric
