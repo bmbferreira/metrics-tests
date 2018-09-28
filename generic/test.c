@@ -15,6 +15,7 @@
 /* **
  * Normally, we limit ourselves to strict inode ops (no path component)
  * point by name.
+ *
  */
 
 const struct dentry_operations ceph_dentry_ops;
