@@ -13,7 +13,6 @@
 
 
 /* **
- *** relative path.  Thus, the client can specify an operation on a
  * relative to, say, the root directory.
  * Normally, we limit ourselves to strict inode ops (no path component)
  * point by name.

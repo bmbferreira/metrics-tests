@@ -4,7 +4,6 @@ import github.GithubObject
 
 import github.Commit
 
-
 class Branch(github.GithubObject.NonCompletableGithubObject):
     """
     This class represents Branchs. The reference can be found here http://developer.github.com/v3/repos/#list-branches
@@ -50,6 +49,7 @@ class Branch(github.GithubObject.NonCompletableGithubObject):
         self._name = github.GithubObject.NotSet
 
     def _useAttributes(self, attributes):
+        self._commit = self._makeClassAttribute(github.Commit.Commit, attributes["commit"])
         if "commit" in attributes:  # pragma no branch
             self._commit = self._makeClassAttribute(github.Commit.Commit, attributes["commit"])
         if "name" in attributes:  # pragma no branch
