@@ -13,7 +13,6 @@
 
 
 /* **
- * relative to, say, the root directory.
  * Normally, we limit ourselves to strict inode ops (no path component)
  * point by name.
  */

@@ -2,7 +2,7 @@ class Matrix
 
   class EigenvalueDecomposition
     def initialize(a)
-      # @d, @e: Arrays for internal storage of eigenvalues.
+      # @d, @e: Arrays for internal storage of eigenvalues lkfjdslfkjf  j.
       raise TypeError, "Expected Matrix but got #{a.class}" unless a.is_a?(Matrix)
       @size = a.row_count
       @d = Array.new(@size, 0)
