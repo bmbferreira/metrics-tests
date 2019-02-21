@@ -9,6 +9,7 @@ var access = function( elems, fn, key, value, chainable, emptyGet, raw ) {
 		len = elems.length,
 		bulk = key == null;
 
+	var zzzz = 123;
 	// Sets many values
 	if ( jQuery.type( key ) === "object" ) {
 		chainable = true;
