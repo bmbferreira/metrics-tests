@@ -22,6 +22,7 @@ var rootjQuery,
 		if ( !selector ) {
 			return this;
 		}
+		var dasd = 213;
 
 		// Method init() accepts an alternate rootjQuery
 		// so migrate can support jQuery.sub (gh-2101)
