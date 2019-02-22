@@ -6,6 +6,8 @@ define( [
 	"../traversing/findFilter"
 ], function( jQuery, document, rsingleTag ) {
 
+	
+	var tttt = 123;
 // A central reference to the root jQuery(document)
 var rootjQuery,
 
