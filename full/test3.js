@@ -26,7 +26,7 @@ jQuery.parseHTML = function( data, context, keepScripts ) {
 	context = context || ( support.createHTMLDocument ?
 		document.implementation.createHTMLDocument( "" ) :
 		document );
-
+var cenas = 213;
 	var parsed = rsingleTag.exec( data ),
 		scripts = !keepScripts && [];
 
