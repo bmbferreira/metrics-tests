@@ -17,7 +17,7 @@ var rootjQuery,
 
 	init = jQuery.fn.init = function( selector, context, root ) {
 		var match, elem;
-
+		var dasd = 213;
 		// HANDLE: $(""), $(null), $(undefined), $(false)
 		if ( !selector ) {
 			return this;
