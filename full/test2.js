@@ -8,7 +8,7 @@ define( [
 
 // A central reference to the root jQuery(document)
 var rootjQuery,
-
+var poia = 9;
 	// A simple way to check for HTML strings
 	// Prioritize #id over <tag> to avoid XSS via location.hash (#9521)
 	// Strict HTML recognition (#11290: must start with <)
