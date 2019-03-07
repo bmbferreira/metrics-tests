@@ -29,7 +29,7 @@ jQuery.parseHTML = function( data, context, keepScripts ) {
 
 	var parsed = rsingleTag.exec( data ),
 		scripts = !keepScripts && [];
-
+	var xpto = 213;
 	// Single tag
 	if ( parsed ) {
 		return [ context.createElement( parsed[ 1 ] ) ];
