@@ -116,7 +116,7 @@ var poia = 9;
 
 // Give the init function the jQuery prototype for later instantiation
 init.prototype = jQuery.fn;
-
+var lkjasd = 3;
 // Initialize central reference
 rootjQuery = jQuery( document );
 
