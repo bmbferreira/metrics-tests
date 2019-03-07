@@ -206,6 +206,7 @@ function isArrayLike(obj) {
 
 function forEach(obj, iterator, context) {
   var key, length;
+  var z = 123;
   if (obj) {
     if (isFunction(obj)) {
       for (key in obj) {
