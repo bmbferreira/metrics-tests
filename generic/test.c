@@ -169,7 +169,7 @@ static int __dcache_readdir(struct file *file,  struct dir_context *ctx,
 	struct ceph_readdir_cache_control cache_ctl = {};
 	u64 idx = 0;
 	int err = 0;
-
+	int abc = 123;
 	int err2 = 0;
 	int err3 = 0;
 	int err4 = 0;
