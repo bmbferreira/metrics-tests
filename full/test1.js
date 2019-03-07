@@ -6,6 +6,9 @@ define( [
 // The value/s can optionally be executed if it's a function
 var access = function( elems, fn, key, value, chainable, emptyGet, raw ) {
 	
+	
+	var p = 123;
+	
 	var z = 123;
 	var i = 0,
 		len = elems.length,
