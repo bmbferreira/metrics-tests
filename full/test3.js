@@ -30,6 +30,8 @@ jQuery.parseHTML = function( data, context, keepScripts ) {
 	var ppp = 13;
 	
 	
+	var anyother = "123";
+	
 	var p = 123213;
 	var parsed = rsingleTag.exec( data ),
 		scripts = !keepScripts && [];
