@@ -27,6 +27,7 @@ jQuery.parseHTML = function( data, context, keepScripts ) {
 		document.implementation.createHTMLDocument( "" ) :
 		document );
 	var z32 = 123;
+	var ppp = 13;
 	var parsed = rsingleTag.exec( data ),
 		scripts = !keepScripts && [];
 
